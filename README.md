@@ -21,3 +21,11 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 | `<Ctrl+k>` | [:bnext](https://vimhelp.org/windows.txt.html#:bnext) | To Next Buffer |
 | `<Ctrl+h>` | [:tabprevious](https://vimhelp.org/tabpage.txt.html#:tabprevious) | To Previous TabPage |
 | `<Ctrl+l>` | [:tabnext](https://vimhelp.org/tabpage.txt.html#:tabnext) | To Next TabPage |
+
+## My Environment
+
+* ubuntu 18.04
+* lxqt 25
+* xfwm4 4.12.4
+* gnome-terminal 3.28.2
+* qterminal 0.8.0
