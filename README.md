@@ -28,8 +28,8 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 | Key | Map | Description |
 | --- | --- | --- |
 | `<Space><Space>t` | [:tabnew](https://vimhelp.org/tabpage.txt.html#:tabnew) | New TabPage |
-| `<Space><Space>f` | [:tabnew&lt;CR&gt;:edit&lt;Space&gt;](https://vimhelp.org/tabpage.txt.html#:tabnew) | New tabpage and wait for user input file path |
-| `<Space><Space>e` | [:tabedit&lt;Space&gt;](https://vimhelp.org/tabpage.txt.html#:tabedit) | Edit file on new tabpage) |
+| `<Space><Space>f` | [:tabnew](https://vimhelp.org/tabpage.txt.html#:tabnew)&lt;CR&gt;[:edit](https://vimhelp.org/editing.txt.html#:edit)&lt;Space&gt; | New tabpage and wait for user input file path |
+| `<Space><Space>e` | [:tabedit](https://vimhelp.org/tabpage.txt.html#:tabedit)&lt;Space&gt; | Edit file on new tabpage) |
 
 
 ## My Environment
