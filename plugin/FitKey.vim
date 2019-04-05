@@ -18,8 +18,8 @@
 " ## switch buffer
 nnoremap <C-j> :bprevious<CR>
 nnoremap <C-k> :bnext<CR>
-nnoremap <C-Up> :bprevious<CR>
-nnoremap <C-Down> :bnext<CR>
+"nnoremap <C-Up> :bprevious<CR>
+"nnoremap <C-Down> :bnext<CR>
 
 
 ""
@@ -57,8 +57,8 @@ nnoremap ,h :hide<CR>
 """ Head: TabPage
 ""
 
-nnoremap <C-Left> :tabprevious<CR>
-nnoremap <C-Right> :tabnext<CR>
+"nnoremap <C-Left> :tabprevious<CR>
+"nnoremap <C-Right> :tabnext<CR>
 nnoremap <C-h> :tabprevious<CR>
 nnoremap <C-l> :tabnext<CR>
 nnoremap ,u :redraw<CR> "  for orignal <C-l>
