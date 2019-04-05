@@ -25,7 +25,7 @@ function! s:MapPre () abort
 
 	"" ## ,w
 	if !has_key(l:localleader, 'w')
-		let l:localleader['w'] = {'name': '+prefix'}
+		let l:localleader['w'] = {'name': '+windows'}
 	endif
 
 
