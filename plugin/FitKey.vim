@@ -21,7 +21,7 @@ function! s:MapPre () abort
 	let l:leader = g:spacevim#map#leader#desc
 	let l:localleader = g:spacevim#map#localleader#desc
 
-	let l:leader['name'] =  'space-vim root new'
+	"let l:leader['name'] =  'space-vim root'
 
 	"" ## ,w
 	if !has_key(l:localleader, 'w')
@@ -81,12 +81,12 @@ function! s:MapAboutWindow () abort
 
 	"" ## current window only
 	" ,wa
-	let localleader['w']['a'] = ['only', 'Only'] " space-vim key is [<Space>wo]
+	let localleader['w']['a'] = ['only', 'close-other-windows'] " space-vim key is [<Space>wo]
 
 
 	"" ## hide
 	" ,h
-	let localleader['h'] = [':hide', 'Hide']
+	let localleader['h'] = [':hide', 'hide']
 
 endfunction
 
@@ -112,11 +112,11 @@ function! s:MapAboutTabPage () abort
 	nnoremap <C-l> :tabnext<CR>
 
 	" ## ,u
-	let l:localleader['u'] = [':redraw', 'Redraw'] "  for orignal <C-l>
+	let l:localleader['u'] = [':redraw', 'redraw'] "  for orignal <C-l>
 
 
 	" ## <Space><Space>t
-	let l:leader[' ']['t'] = [':tabnew', 'New Tab']
+	let l:leader[' ']['t'] = [':tabnew', 'new-tab']
 	nnoremap <Space><Space>e :tabedit<Space>
 	nnoremap <Space><Space>f :tabnew<CR>:edit<Space>
 
