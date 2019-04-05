@@ -25,7 +25,7 @@ function! s:MapPre () abort
 
 	"" ## ,w
 	if !has_key(l:localleader, 'w')
-		let l:localleader['w'] = {'name': '+windows'}
+		let l:localleader['w'] = {'name': '+prefix'}
 	endif
 
 
@@ -158,6 +158,7 @@ function! s:Init () abort
 endfunction
 
 au VimEnter * call s:Init()
+
 
 ""
 """ Tail: OnVimEnter }
