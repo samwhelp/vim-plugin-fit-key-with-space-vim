@@ -145,11 +145,11 @@ function! s:Map () abort
 endfunction
 
 function! s:Init () abort
-
+	"echom 'TryMap'
 	try
 		call s:Map()
 	catch
-		"echo 'error'
+		"echom 'ErrorTryMap'
 		return
 	finally
 		return
@@ -157,8 +157,10 @@ function! s:Init () abort
 
 endfunction
 
-au VimEnter * call s:Init()
-
+augroup FitKey
+	autocmd!
+	autocmd VimEnter * call s:Init()
+augroup END
 
 ""
 """ Tail: OnVimEnter }
