@@ -181,20 +181,27 @@ endfunction
 
 function! s:Startify () abort
 	if !argc()
-		call plug#load('vim-startify')
-		silent! Startify
+		try
+			call plug#load('vim-startify')
+			silent! Startify
+		catch
+			"echom 'Error Startify'
+			return
+		finally
+			return
+		endtry
 	endif
 endfunction
 
-function! s:MySpacevimStart () abort
-	"echom 'MySpacevimStart'
+function! s:MyVimEnterSpacevimStart () abort
+	"echom 'MyVimEnterSpacevimStart'
 	try
 
 		call s:Map()
 		call s:Startify()
 
 	catch
-		"echom 'Error MySpacevimStart'
+		"echom 'Error MyVimEnterSpacevimStart'
 		return
 	finally
 		return
@@ -202,10 +209,10 @@ function! s:MySpacevimStart () abort
 
 endfunction
 
-
+" This work
 augroup spacevimStart
 	autocmd!
-	autocmd VimEnter * call s:MySpacevimStart()
+	autocmd VimEnter * call s:MyVimEnterSpacevimStart()
 augroup END
 
 
