@@ -1,11 +1,25 @@
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" Head: Docs {
+""
+
+" https://github.com/liuchengxu/space-vim/wiki/Loading-process
+" https://github.com/liuchengxu/space-vim/blob/master/layers/LAYERS.md
+
+""
+""" Tail: Docs }
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: Orignal {
 ""
 
 " https://github.com/liuchengxu/space-vim/blob/master/core/autoload/spacevim/map/leader.vim
 " https://github.com/liuchengxu/space-vim/blob/master/core/autoload/spacevim/map/localleader.vim
+
+" https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim
 
 ""
 """ Tail: Orignal }
@@ -54,7 +68,7 @@ function! s:MapAboutBuffer () abort
 	nnoremap <C-k> :bnext<CR>
 	"nnoremap <C-Up> :bprevious<CR>
 	"nnoremap <C-Down> :bnext<CR>
-
+	" https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim
 
 endfunction
 
@@ -110,6 +124,7 @@ function! s:MapAboutTabPage () abort
 	"nnoremap <C-Right> :tabnext<CR>
 	nnoremap <C-h> :tabprevious<CR>
 	nnoremap <C-l> :tabnext<CR>
+	" https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim
 
 	" ## ,u
 	let l:localleader['u'] = [':redraw', 'redraw'] "  for orignal <C-l>
