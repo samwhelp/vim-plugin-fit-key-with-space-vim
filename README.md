@@ -7,6 +7,12 @@
 This vim plugin is fit key map for my self with [space-vim](https://github.com/liuchengxu/space-vim).
 
 
+## Browse
+
+* [Quick Switch](#quick-switch)
+* [Howto Install](#howto-install)
+
+
 ## Map
 
 > Not all. Just Introduction. Please read [plugin/FitKey.vim](plugin/FitKey.vim) to find all key map.
