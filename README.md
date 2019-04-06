@@ -47,3 +47,44 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 ## Related Projects
 
 * [vim-plugin-fit-key-raw-with-space-vim](https://github.com/samwhelp/vim-plugin-fit-key-raw-with-space-vim)
+
+
+## Howto Install
+
+### Install space-vim
+
+Please install [space-vim](https://github.com/liuchengxu/space-vim) first!
+
+Then config. Just one line.
+
+``` vim
+Plug 'samwhelp/vim-plugin-fit-key-with-space-vim'
+```
+
+### Config ~/.spacevim
+
+You can edit 「[~/.spacevim](https://github.com/liuchengxu/space-vim/blob/master/init.spacevim#L30)」like this.
+
+``` vim
+function! UserInit()
+	Plug 'samwhelp/vim-plugin-fit-key-with-space-vim'
+endfunction
+```
+
+### :PlugInstall
+
+you can run [vim](http://manpages.ubuntu.com/manpages/bionic/en/man1/vim.1.html) or [nvim](http://manpages.ubuntu.com/manpages/bionic/en/man1/nvim.1.html), then run [:PlugInstall](https://github.com/junegunn/vim-plug#commands).
+
+or just run on shell.
+
+``` sh
+$ vim -nNRe -c 'try | :PlugInstall | finally | :qa! | entry'
+```
+
+or not quit, run
+
+``` sh
+$ vim -nNRe -c ':PlugInstall'
+```
+
+It's done.
