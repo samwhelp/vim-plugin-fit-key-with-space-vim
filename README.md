@@ -1,5 +1,6 @@
 # vim-plugin-fit-key-with-space-vim
-vim-plugin-fit-key-with-space-vim
+
+* vim-plugin-fit-key-with-space-vim ([GitHub](https://github.com/samwhelp/vim-plugin-fit-key-with-space-vim))
 
 ## Introduction
 
@@ -39,3 +40,10 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 * xfwm4 4.12.4
 * gnome-terminal 3.28.2
 * qterminal 0.8.0
+* vim 8.0
+* nvim 0.2.2
+
+
+## Related Projects
+
+* [vim-plugin-fit-key-raw-with-space-vim](https://github.com/samwhelp/vim-plugin-fit-key-raw-with-space-vim)
