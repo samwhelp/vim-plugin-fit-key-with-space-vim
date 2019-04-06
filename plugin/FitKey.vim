@@ -172,10 +172,64 @@ function! s:Init () abort
 
 endfunction
 
-augroup FitKey
+" This does't work on [$ nvim ~/.spacevim] but work on [$ nvim]
+" " https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/packages.vim#L23
+" augroup FitKey
+" 	autocmd!
+" 	autocmd VimEnter * call s:Init()
+" augroup END
+
+function! s:Startify () abort
+	if !argc()
+		call plug#load('vim-startify')
+		silent! Startify
+	endif
+endfunction
+
+function! s:MySpacevimStart () abort
+	"echom 'MySpacevimStart'
+	try
+
+		call s:Map()
+		call s:Startify()
+
+	catch
+		"echom 'Error MySpacevimStart'
+		return
+	finally
+		return
+	endtry
+
+endfunction
+
+
+augroup spacevimStart
 	autocmd!
-	autocmd VimEnter * call s:Init()
+	autocmd VimEnter * call s:MySpacevimStart()
 augroup END
+
+
+" https://github.com/liuchengxu/space-vim/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aclose+VimEnter+
+" https://github.com/liuchengxu/space-vim/issues/8
+" https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/packages.vim#L20
+"
+" function! s:Test1 () abort
+" 	echom 'Test1'
+" endfunction
+"
+" function! s:Test2 () abort
+" 	echom 'Test2'
+" endfunction
+
+" augroup spacevimStart
+" 	autocmd!
+" 	autocmd VimEnter *
+" 	\   if !argc()
+" 	\|		call s:Test1()
+" 	\|		silent! s:Test2()
+" 	\|  endif
+" augroup END
+
 
 ""
 """ Tail: OnVimEnter }
