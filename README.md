@@ -138,6 +138,22 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 > Compare with [Quick Switch](#quick-switch) `<Ctrl+h>` and `<Ctrl+l>` .
 
 
+### Tab Move
+
+| Key | Map | Description |
+| --- | --- | --- |
+| `<Space><Space>u` | [:-tabmove](https://vimhelp.org/tabpage.txt.html#:tabmove)&lt;CR&gt; | Tab Move to Left |
+| `<Space><Space>i` | [:+tabmove](https://vimhelp.org/tabpage.txt.html#:tabmove)&lt;CR&gt; | Tab Move to Right |
+
+
+| Key | Map | Description |
+| --- | --- | --- |
+| `<Space><Space>mh` | [:-tabmove](https://vimhelp.org/tabpage.txt.html#:tabmove)&lt;CR&gt; | Tab Move to Left |
+| `<Space><Space>ml` | [:+tabmove](https://vimhelp.org/tabpage.txt.html#:tabmove)&lt;CR&gt; | Tab Move to Right |
+| `<Space><Space>mj` | [:0tabmove](https://vimhelp.org/tabpage.txt.html#:tabmove)&lt;CR&gt; | Tab Move to First |
+| `<Space><Space>mk` | [:$tabmove](https://vimhelp.org/tabpage.txt.html#:tabmove)&lt;CR&gt; | Tab Move to Last |
+
+
 ## My Environment
 
 * ubuntu 18.04
