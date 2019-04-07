@@ -72,6 +72,8 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 | `\z` | [:q!](https://vimhelp.org/editing.txt.html#:q) | force quit | single |
 | `\c` | [:qa!](https://vimhelp.org/editing.txt.html#:qa) | force quit all | all |
 
+> Please read :help ['confirm'](https://vimhelp.org/options.txt.html#'confirm').
+
 
 ## Hide
 
