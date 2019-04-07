@@ -55,6 +55,8 @@ function! s:MapPre () abort
 
 
 	" ## add <Bslash> WhichKey Tips. (for \)
+	" https://www.jianshu.com/p/e47f7ec27cea
+	" https://github.com/liuchengxu/vim-which-key
 	nnoremap <silent> <Bslash> :<c-u>WhichKey  '<Bslash>'<CR>
 
 endfunction
