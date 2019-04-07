@@ -102,9 +102,12 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 | Key | Map | Description |
 | --- | --- | --- |
+| `<Space><Space>s` | [:tab split](https://vimhelp.org/tabpage.txt.html#:tab)&lt;CR&gt; | Opens current buffer in new tab page |
 | `<Space><Space>t` | [:tabnew](https://vimhelp.org/tabpage.txt.html#:tabnew)&lt;CR&gt; | New TabPage |
 | `<Space><Space>f` | [:tabnew](https://vimhelp.org/tabpage.txt.html#:tabnew)&lt;CR&gt;[:edit](https://vimhelp.org/editing.txt.html#:edit)&lt;Space&gt; | New tabpage and wait for user input file path |
 | `<Space><Space>e` | [:tabedit](https://vimhelp.org/tabpage.txt.html#:tabedit)&lt;Space&gt; | Edit file on new tabpage) |
+
+> I use [t](https://github.com/samwhelp/tool-svim-core/blob/master/plugin/Svim.vim#L745) for tabpage. space-vim use `<Space><Space>` for tabpage. It's ok.
 
 
 ## My Environment
