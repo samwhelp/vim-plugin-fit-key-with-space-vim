@@ -16,6 +16,8 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 ## Orignal Map
 
+* :help [normal-index](https://vimhelp.org/index.txt.html#normal-index)
+* space-vim/layers/+distributions/better-defaults/[README.md](https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/README.md)
 * space-vim/core/autoload/spacevim/map/[leader.vim](https://github.com/liuchengxu/space-vim/blob/master/core/autoload/spacevim/map/leader.vim)
 *  space-vim/core/autoload/spacevim/map/[localleader.vim](https://github.com/liuchengxu/space-vim/blob/master/core/autoload/spacevim/map/localleader.vim)
 * space-vim/layers/+distributions/better-defaults/[keybindings.vim](https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim)
