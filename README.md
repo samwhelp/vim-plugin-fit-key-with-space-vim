@@ -67,7 +67,7 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 | Key | Map | Description | Notice |
 | --- | --- | --- | --- |
-| `,h` | [:hide](https://vimhelp.org/windows.txt.html#:hide) | hide current buffer | single |
+| `,h` | [:hide](https://vimhelp.org/windows.txt.html#:hide) | Hide current buffer. | single |
 
 
 ## Only
@@ -78,6 +78,24 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 | `<Space><Space>wa` | [:tabonly](https://vimhelp.org/tabpage.txt.html#:tabonly) | wa to close other tabpage, then all buffer will hide, if set [hidden](https://vimhelp.org/options.txt.html#'hidden'). |
 
 > Compare with `,x`, `,c`, `\x`, `\c`, `,h`。
+
+
+## Buffer List
+
+| Key | Map | Description |
+| --- | --- | --- |
+| `,b` | [:ls](https://vimhelp.org/windows.txt.html#:ls) | Show all buffers. |
+
+> space-vim Use `<Space>bb` can list and chose
+
+
+## Save
+
+| Key | Map | Description |
+| --- | --- | --- |
+| `,s` | [:w](https://vimhelp.org/editing.txt.html#:w) | Write the whole buffer to the current file. |
+
+> space-vim Use `<Space>fs` bind [:update](https://vimhelp.org/editing.txt.html#:update).
 
 
 ## TabPage
