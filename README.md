@@ -43,6 +43,25 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 | `<Ctrl+l>` | [:tabnext](https://vimhelp.org/tabpage.txt.html#:tabnext)&lt;CR&gt; | To Next TabPage |
 
 
+## Delete Buffer
+
+| Key | Map | Description | Notice |
+| --- | --- | --- | --- |
+| `,q` | [:bdelete](https://vimhelp.org/windows.txt.html#:bdelete) | delete current buffer | single |
+| `,x` | [:%bdelete](https://vimhelp.org/windows.txt.html#:bdelete) | delete all buffer | all |
+| `,z` | [:bdelete!](https://vimhelp.org/windows.txt.html#:bdelete) | force delete current buffer | single |
+| `,c` | [:%bdelete!](https://vimhelp.org/windows.txt.html#:bdelete) | force delete all buffer | all |
+
+
+## Quit
+
+| Key | Map | Description | Notice |
+| --- | --- | --- | --- |
+| `\q` | [:q](https://vimhelp.org/editing.txt.html#:q) | quit | single |
+| `\x` | [:qa](https://vimhelp.org/editing.txt.html#:qa) | quit all | all |
+| `\z` | [:q!](https://vimhelp.org/editing.txt.html#:q) | force quit | single |
+| `\c` | [:qa!](https://vimhelp.org/editing.txt.html#:qa) | force quit all | all |
+
 ## TabPage
 
 | Key | Map | Description |
