@@ -2,10 +2,6 @@
 
 * vim-plugin-fit-key-with-space-vim ([GitHub](https://github.com/samwhelp/vim-plugin-fit-key-with-space-vim))
 
-## Introduction
-
-This vim plugin is fit key map for my self with [space-vim](https://github.com/liuchengxu/space-vim).
-
 
 ## Browse
 
@@ -13,10 +9,25 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 * [Howto Install](#howto-install)
 
 
+## Introduction
+
+This vim plugin is fit key map for my self with [space-vim](https://github.com/liuchengxu/space-vim).
+
+
+## Orignal Map
+
+* space-vim/core/autoload/spacevim/map/[leader.vim](https://github.com/liuchengxu/space-vim/blob/master/core/autoload/spacevim/map/leader.vim)
+*  space-vim/core/autoload/spacevim/map/[localleader.vim](https://github.com/liuchengxu/space-vim/blob/master/core/autoload/spacevim/map/localleader.vim)
+* space-vim/layers/+distributions/better-defaults/[keybindings.vim](https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim)
+* vim-better-default/plugin/[default.vim](https://github.com/liuchengxu/vim-better-default/blob/master/plugin/default.vim)
+* ...
+
+
 ## Map
 
-> Not all. Just Introduction. Please read [plugin/FitKey.vim](plugin/FitKey.vim) to find all key map.
+> Not all. Just introduction. Please read [plugin/FitKey.vim](plugin/FitKey.vim) to find all key map.
 
+> Just fit on Normal Mode
 
 ## Quick Switch
 
