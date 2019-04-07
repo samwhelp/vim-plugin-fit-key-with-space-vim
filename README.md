@@ -62,6 +62,24 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 | `\z` | [:q!](https://vimhelp.org/editing.txt.html#:q) | force quit | single |
 | `\c` | [:qa!](https://vimhelp.org/editing.txt.html#:qa) | force quit all | all |
 
+
+## Hide
+
+| Key | Map | Description | Notice |
+| --- | --- | --- | --- |
+| `,h` | [:hide](https://vimhelp.org/windows.txt.html#:hide) | hide current buffer | single |
+
+
+## Only
+
+| Key | Map | Description |
+| --- | --- | --- |
+| `,wa` | [:only](https://vimhelp.org/windows.txt.html#:only) | to close other window, then all buffer will hide, if set [hidden](https://vimhelp.org/options.txt.html#'hidden'). |
+| `<Space><Space>wa` | [:tabonly](https://vimhelp.org/tabpage.txt.html#:tabonly) | wa to close other tabpage, then all buffer will hide, if set [hidden](https://vimhelp.org/options.txt.html#'hidden'). |
+
+> Compare with `,x`, `,c`, `\x`, `\c`, `,h`。
+
+
 ## TabPage
 
 | Key | Map | Description |
