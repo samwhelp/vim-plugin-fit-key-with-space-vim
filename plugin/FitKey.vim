@@ -44,7 +44,7 @@ function! s:MapPre () abort
 
 
 
-
+	nnoremap <silent> <Bslash> :<c-u>WhichKey  '<Bslash>'<CR>
 
 endfunction
 
@@ -54,13 +54,48 @@ endfunction
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" Head: MapAboutQuit
+""
+function! s:MapAboutQuit () abort
+	"" ## call this first
+	let l:leader = g:spacevim#map#leader#desc
+	let l:localleader = g:spacevim#map#localleader#desc
+
+
+	" ## delete buffer
+	nnoremap <Bslash>q :q<CR>    " single
+	nnoremap <Bslash>x :qa<CR>   " all
+	nnoremap <Bslash>z :q!<CR>   " single
+	nnoremap <Bslash>c :qa!<CR>  " all
+
+
+	" ## quit
+	nnoremap ,q :bdelete<CR>     " single
+	nnoremap ,x :%bdelete<CR>    " all
+	nnoremap ,z :bdelete!<CR>    " single
+	nnoremap ,c :%bdelete!<CR>   " all
+	"let localleader['q'] = ['bdelete', 'delete-current-buffer']
+	"let localleader['x'] = ['%bdelete', 'delete-all-buffer']
+	"let localleader['z'] = ['bdelete!', 'delete-current-buffer!']
+	"let localleader['c'] = ['%bdelete!', 'delete-all-buffer!']
+
+endfunction
+
+""
+""" Tail: MapAboutQuit
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: MapAboutBuffer {
 ""
 
 function! s:MapAboutBuffer () abort
 	"" ## call this first
-	"let l:leader = g:spacevim#map#leader#desc
-	"let l:localleader = g:spacevim#map#localleader#desc
+	let l:leader = g:spacevim#map#leader#desc
+	let l:localleader = g:spacevim#map#localleader#desc
 
 
 	"" ## switch buffer
@@ -70,8 +105,20 @@ function! s:MapAboutBuffer () abort
 	"nnoremap <C-Down> :bnext<CR>
 	" https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim
 
-endfunction
 
+	" ## list buffer
+	nnoremap ,b :ls<CR>
+	"nnoremap ,b :buffers<CR>
+	"nnoremap ,b :files<CR>
+	let localleader['b'] = ['ls', 'buffer-list']
+
+
+	" ## save
+	nnoremap ,s :w<CR>
+	let localleader['s'] = ['w', 'buffer-save']
+
+
+endfunction
 
 ""
 """ Tail: MapAboutBuffer }
@@ -152,9 +199,11 @@ function! s:Map () abort
 
 	call s:MapPre()
 
+	call s:MapAboutQuit()
 	call s:MapAboutBuffer()
 	call s:MapAboutWindow()
 	call s:MapAboutTabPage()
+
 
 
 endfunction
