@@ -120,6 +120,24 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 > I use [t](https://github.com/samwhelp/tool-svim-core/blob/master/plugin/Svim.vim#L745) for tabpage. space-vim use `<Space><Space>` for tabpage. It's ok.
 
 
+### Switch TabPage
+
+| Key | Map | Description |
+| --- | --- | --- |
+| `<Space><Space>p` | [:tabprevious](https://vimhelp.org/tabpage.txt.html#:tabprevious)&lt;CR&gt; | To Previous TabPage |
+| `<Space><Space>n` | [:tabnext](https://vimhelp.org/tabpage.txt.html#:tabnext)&lt;CR&gt; | To Next TabPage |
+
+
+| Key | Map | Description |
+| --- | --- | --- |
+| `<Space><Space>h` | [:tabprevious](https://vimhelp.org/tabpage.txt.html#:tabprevious)&lt;CR&gt; | To Previous TabPage |
+| `<Space><Space>l` | [:tabnext](https://vimhelp.org/tabpage.txt.html#:tabnext)&lt;CR&gt; | To Next TabPage |
+| `<Space><Space>j` | [:tabfirst](https://vimhelp.org/tabpage.txt.html#:tabfirst)&lt;CR&gt; | To First TabPage |
+| `<Space><Space>k` | [:tablast](https://vimhelp.org/tabpage.txt.html#:tablast)&lt;CR&gt; | To Last TabPage |
+
+> Compare with [Quick Switch](#quick-switch) `<Ctrl+h>` and `<Ctrl+l>` .
+
+
 ## My Environment
 
 * ubuntu 18.04
