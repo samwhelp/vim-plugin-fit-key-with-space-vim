@@ -153,6 +153,14 @@ function! s:MapAboutWindow () abort
 	nnoremap <BS> <C-w>W
 
 
+	" ## resize window
+	" :help window-resize
+	nnoremap <S-Down> <C-w>-
+	nnoremap <S-Up> <C-w>+
+	nnoremap <S-Left> <C-w><
+	nnoremap <S-Right> <C-w>>
+
+
 	"" ## current window only
 	" ,wa
 	let localleader['w']['a'] = [':only', 'close-other-windows'] " space-vim key is [<Space>wo]
