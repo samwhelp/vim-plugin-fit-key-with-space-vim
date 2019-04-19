@@ -32,6 +32,7 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 > Just fit on Normal Mode
 
 * [Quick Switch](#quick-switch)
+* [Window Resize](#window-resize)
 * [Delete Buffer](#delete-buffer)
 * [Quit](#quit)
 * [Hide](#hide)
@@ -51,6 +52,16 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 | `<Ctrl+k>` | [:bnext](https://vimhelp.org/windows.txt.html#:bnext)&lt;CR&gt; | To Next Buffer |
 | `<Ctrl+h>` | [:tabprevious](https://vimhelp.org/tabpage.txt.html#:tabprevious)&lt;CR&gt; | To Previous TabPage |
 | `<Ctrl+l>` | [:tabnext](https://vimhelp.org/tabpage.txt.html#:tabnext)&lt;CR&gt; | To Next TabPage |
+
+
+## Window Resize
+
+| Key | Map |
+| --- | --- |
+| ` <S-Down>` | [&lt;C-w&gt;-](https://vimhelp.org/windows.txt.html#CTRL-W_-) |
+| ` <S-Up>` | [&lt;C-w&gt;+](https://vimhelp.org/windows.txt.html#CTRL-W_+) |
+| ` <S-Left>` | [&lt;C-w&gt;<](https://vimhelp.org/windows.txt.html#CTRL-W_<) |
+| ` <S-Right>` | [&lt;C-w&gt;>](https://vimhelp.org/windows.txt.html#CTRL-W_>) |
 
 
 ## Delete Buffer
