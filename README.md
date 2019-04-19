@@ -68,20 +68,20 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 | Key | Map | Description | Notice |
 | --- | --- | --- | --- |
-| `,q` | [:bdelete](https://vimhelp.org/windows.txt.html#:bdelete) | delete current buffer | single |
-| `,x` | [:%bdelete](https://vimhelp.org/windows.txt.html#:bdelete) | delete all buffer | all |
-| `,z` | [:bdelete!](https://vimhelp.org/windows.txt.html#:bdelete) | force delete current buffer | single |
-| `,c` | [:%bdelete!](https://vimhelp.org/windows.txt.html#:bdelete) | force delete all buffer | all |
+| `,q` | [:bdelete](https://vimhelp.org/windows.txt.html#:bdelete)&lt;CR&gt; | delete current buffer | single |
+| `,x` | [:%bdelete](https://vimhelp.org/windows.txt.html#:bdelete)&lt;CR&gt; | delete all buffer | all |
+| `,z` | [:bdelete!](https://vimhelp.org/windows.txt.html#:bdelete)&lt;CR&gt; | force delete current buffer | single |
+| `,c` | [:%bdelete!](https://vimhelp.org/windows.txt.html#:bdelete)&lt;CR&gt; | force delete all buffer | all |
 
 
 ## Quit
 
 | Key | Map | Description | Notice |
 | --- | --- | --- | --- |
-| `\q` | [:q](https://vimhelp.org/editing.txt.html#:q) | quit | single |
-| `\x` | [:qa](https://vimhelp.org/editing.txt.html#:qa) | quit all | all |
-| `\z` | [:q!](https://vimhelp.org/editing.txt.html#:q) | force quit | single |
-| `\c` | [:qa!](https://vimhelp.org/editing.txt.html#:qa) | force quit all | all |
+| `\q` | [:q](https://vimhelp.org/editing.txt.html#:q)&lt;CR&gt; | quit | single |
+| `\x` | [:qa](https://vimhelp.org/editing.txt.html#:qa)&lt;CR&gt; | quit all | all |
+| `\z` | [:q!](https://vimhelp.org/editing.txt.html#:q)&lt;CR&gt; | force quit | single |
+| `\c` | [:qa!](https://vimhelp.org/editing.txt.html#:qa)&lt;CR&gt; | force quit all | all |
 
 > Please read :help ['confirm'](https://vimhelp.org/options.txt.html#'confirm').
 
@@ -90,15 +90,15 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 | Key | Map | Description | Notice |
 | --- | --- | --- | --- |
-| `,h` | [:hide](https://vimhelp.org/windows.txt.html#:hide) | Hide current buffer. | single |
+| `,h` | [:hide](https://vimhelp.org/windows.txt.html#:hide)&lt;CR&gt; | Hide current buffer. | single |
 
 
 ## Only
 
 | Key | Map | Description |
 | --- | --- | --- |
-| `,wa` | [:only](https://vimhelp.org/windows.txt.html#:only) | to close other window, then all buffer will hide, if set [hidden](https://vimhelp.org/options.txt.html#'hidden'). |
-| `<Space><Space>wa` | [:tabonly](https://vimhelp.org/tabpage.txt.html#:tabonly) | wa to close other tabpage, then all buffer will hide, if set [hidden](https://vimhelp.org/options.txt.html#'hidden'). |
+| `,wa` | [:only](https://vimhelp.org/windows.txt.html#:only)&lt;CR&gt; | to close other window, then all buffer will hide, if set [hidden](https://vimhelp.org/options.txt.html#'hidden'). |
+| `<Space><Space>wa` | [:tabonly](https://vimhelp.org/tabpage.txt.html#:tabonly)&lt;CR&gt; | wa to close other tabpage, then all buffer will hide, if set [hidden](https://vimhelp.org/options.txt.html#'hidden'). |
 
 > Compare with `,x`, `,c`, `\x`, `\c`, `,h`。
 
@@ -107,7 +107,7 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 | Key | Map | Description |
 | --- | --- | --- |
-| `,b` | [:ls](https://vimhelp.org/windows.txt.html#:ls) | Show all buffers. |
+| `,b` | [:ls](https://vimhelp.org/windows.txt.html#:ls)&lt;CR&gt; | Show all buffers. |
 
 > space-vim Use `<Space>bb` can list and chose
 
@@ -116,7 +116,7 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 | Key | Map | Description |
 | --- | --- | --- |
-| `,s` | [:w](https://vimhelp.org/editing.txt.html#:w) | Write the whole buffer to the current file. |
+| `,s` | [:w](https://vimhelp.org/editing.txt.html#:w)&lt;CR&gt; | Write the whole buffer to the current file. |
 
 > space-vim Use `<Space>fs` bind [:update](https://vimhelp.org/editing.txt.html#:update).
 
