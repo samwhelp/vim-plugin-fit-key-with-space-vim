@@ -114,11 +114,15 @@ This vim plugin is fit key map for my self with [space-vim](https://github.com/l
 
 ## Save
 
-| Key | Map | Description |
-| --- | --- | --- |
-| `,s` | [:w](https://vimhelp.org/editing.txt.html#:w)&lt;CR&gt; | Write the whole buffer to the current file. |
+| Key | Map | Description | Notice |
+| --- | --- | --- | --- |
+| `<S-Tab>` | [:w](https://vimhelp.org/editing.txt.html#:w)&lt;CR&gt; | Write the whole buffer to the current file. | Work on Normal Mode and Insert Mo
+de |
 
-> space-vim Use `<Space>fs` bind [:update](https://vimhelp.org/editing.txt.html#:update).
+> space-vim Use `<Space>fs` bind [:update](https://vimhelp.org/editing.txt.html#:update)&lt;CR&gt; .
+
+> sapce-vim Use `<S-Tab>` [bind](https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim#L9) [:bp](https://vimhelp.org/windows.txt.html#:bp)&lt;CR&gt; .
+
 
 
 ## TabPage

@@ -127,8 +127,11 @@ function! s:MapAboutBuffer () abort
 
 
 	" ## save
-	nnoremap ,s :w<CR>
-	let localleader['s'] = [':w', 'buffer-save']
+	"nnoremap ,s :w<CR>
+	"let localleader['s'] = [':w', 'buffer-save']
+	nnoremap <S-Tab> :w<CR>
+	inoremap <S-Tab> <Esc>:w<CR>a
+
 
 
 endfunction
