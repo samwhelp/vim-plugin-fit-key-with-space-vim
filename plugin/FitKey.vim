@@ -76,17 +76,17 @@ function! s:MapAboutQuit () abort
 
 
 	" ## delete buffer
-	nnoremap <Bslash>q :q<CR>    " single
-	nnoremap <Bslash>x :qa<CR>   " all
-	nnoremap <Bslash>z :q!<CR>   " single
-	nnoremap <Bslash>c :qa!<CR>  " all
+	nnoremap <Bslash>q :q<CR>
+	nnoremap <Bslash>x :qa<CR>
+	nnoremap <Bslash>z :q!<CR>
+	nnoremap <Bslash>c :qa!<CR>
 
 
 	" ## quit
-	nnoremap ,q :bdelete<CR>     " single
-	nnoremap ,x :%bdelete<CR>    " all
-	nnoremap ,z :bdelete!<CR>    " single
-	nnoremap ,c :%bdelete!<CR>   " all
+	nnoremap ,q :bdelete<CR>
+	nnoremap ,x :%bdelete<CR>
+	nnoremap ,z :bdelete!<CR>
+	nnoremap ,c :%bdelete!<CR>
 	"let localleader['q'] = ['bdelete', 'delete-current-buffer']
 	"let localleader['x'] = ['%bdelete', 'delete-all-buffer']
 	"let localleader['z'] = ['bdelete!', 'delete-current-buffer!']
@@ -149,7 +149,8 @@ function! s:MapAboutWindow () abort
 
 
 	"" ## switch window
-	nnoremap <Tab> <C-w>w " ## use <Tab> or <C-i>
+	" ## use <Tab> or <C-i>
+	nnoremap <Tab> <C-w>w
 	nnoremap <BS> <C-w>W
 
 
@@ -211,10 +212,10 @@ function! s:MapAboutTabPage () abort
 
 
 	" ## move left or right
-	nnoremap <Space><Space>u :-tabmove<CR> " tab move left
-	"nnoremap <Space><Space>i :+tabmove<CR> " tab move right
-	nnoremap <Space><Space>mh :-tabmove<CR> " tab move left
-	"nnoremap <Space><Space>ml :+tabmove<CR> " tab move right
+	nnoremap <Space><Space>u :-tabmove<CR>
+	"nnoremap <Space><Space>i :+tabmove<CR>
+	nnoremap <Space><Space>mh :-tabmove<CR>
+	"nnoremap <Space><Space>ml :+tabmove<CR>
 	let l:leader[' ']['u'] = [':-tabmove', 'tab-move-left'] " ##  <Space><Space>u
 	let l:leader[' ']['i'] = [':+tabmove', 'tab-move-right'] " ## <Space><Space>i
 	let l:leader[' ']['m']['h'] = [':-tabmove', 'tab-move-left'] " ##  <Space><Space>mh
