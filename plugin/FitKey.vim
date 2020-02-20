@@ -112,8 +112,8 @@ function! s:MapAboutBuffer () abort
 
 
 	"" ## switch buffer
-	nnoremap <C-j> :bprevious<CR>
-	nnoremap <C-k> :bnext<CR>
+	nnoremap <C-k> :bprevious<CR>
+	nnoremap <C-j> :bnext<CR>
 	"nnoremap <C-Up> :bprevious<CR>
 	"nnoremap <C-Down> :bnext<CR>
 	" https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/keybindings.vim
